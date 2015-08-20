@@ -10,4 +10,8 @@
 
 @interface ScaleFlowLayout : UICollectionViewFlowLayout
 
++ (instancetype)flowLayout;
+
+@property (nonatomic, assign) CGFloat zoomScale;
+
 @end

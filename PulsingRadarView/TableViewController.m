@@ -42,7 +42,8 @@
     return @[
              @{@"identifier":@"RadarPush",@"name":@"水波纹效果"},
              @{@"identifier":@"HeaderViewPush",@"name":@"头部伸缩视图"},
-             @{@"identifier":@"PullPush",@"name":@"下拉刷新动画"}
+             @{@"identifier":@"PullPush",@"name":@"下拉刷新动画"},
+             @{@"identifier":@"CollectionPush",@"name":@"CollectionScale"}
              ];
 }
 

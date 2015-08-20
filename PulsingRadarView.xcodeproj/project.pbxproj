@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0AE7BC31B85722C009E874D /* ScaleFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE7BC21B85722C009E874D /* ScaleFlowLayout.m */; };
+		D0AE7BC61B857372009E874D /* CollectionScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE7BC51B857372009E874D /* CollectionScaleViewController.m */; };
+		D0AE7BCD1B85761E009E874D /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = D0AE7BC81B85761E009E874D /* 0.png */; };
+		D0AE7BCE1B85761E009E874D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0AE7BC91B85761E009E874D /* 1.png */; };
+		D0AE7BCF1B85761E009E874D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D0AE7BCA1B85761E009E874D /* 2.png */; };
+		D0AE7BD01B85761E009E874D /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = D0AE7BCB1B85761E009E874D /* 3.png */; };
+		D0AE7BD11B85761E009E874D /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = D0AE7BCC1B85761E009E874D /* 4.png */; };
+		D0AE7BD41B8577D9009E874D /* ScaleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE7BD31B8577D9009E874D /* ScaleCollectionViewCell.m */; };
 		D0C1422A1B745D9B00CE998E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C142291B745D9B00CE998E /* main.m */; };
 		D0C1422D1B745D9B00CE998E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C1422C1B745D9B00CE998E /* AppDelegate.m */; };
 		D0C142301B745D9B00CE998E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C1422F1B745D9B00CE998E /* ViewController.m */; };
@@ -34,6 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D0AE7BC11B85722C009E874D /* ScaleFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleFlowLayout.h; sourceTree = "<group>"; };
+		D0AE7BC21B85722C009E874D /* ScaleFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleFlowLayout.m; sourceTree = "<group>"; };
+		D0AE7BC41B857372009E874D /* CollectionScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionScaleViewController.h; sourceTree = "<group>"; };
+		D0AE7BC51B857372009E874D /* CollectionScaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionScaleViewController.m; sourceTree = "<group>"; };
+		D0AE7BC81B85761E009E874D /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		D0AE7BC91B85761E009E874D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		D0AE7BCA1B85761E009E874D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		D0AE7BCB1B85761E009E874D /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		D0AE7BCC1B85761E009E874D /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		D0AE7BD21B8577D9009E874D /* ScaleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleCollectionViewCell.h; sourceTree = "<group>"; };
+		D0AE7BD31B8577D9009E874D /* ScaleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleCollectionViewCell.m; sourceTree = "<group>"; };
 		D0C142241B745D9B00CE998E /* PulsingRadarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulsingRadarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C142281B745D9B00CE998E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0C142291B745D9B00CE998E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +100,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0AE7BC71B85761E009E874D /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				D0AE7BC81B85761E009E874D /* 0.png */,
+				D0AE7BC91B85761E009E874D /* 1.png */,
+				D0AE7BCA1B85761E009E874D /* 2.png */,
+				D0AE7BCB1B85761E009E874D /* 3.png */,
+				D0AE7BCC1B85761E009E874D /* 4.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
 		D0C1421B1B745D9B00CE998E = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +142,7 @@
 				D0C142311B745D9B00CE998E /* Main.storyboard */,
 				D0C142341B745D9B00CE998E /* Images.xcassets */,
 				D0C142361B745D9B00CE998E /* LaunchScreen.xib */,
+				D0AE7BC71B85761E009E874D /* resources */,
 				D0C142271B745D9B00CE998E /* Supporting Files */,
 				D0C1424D1B745DC400CE998E /* PulsingRadarView.h */,
 				D0C1424E1B745DC400CE998E /* PulsingRadarView.m */,
@@ -124,6 +156,12 @@
 				D0C56CEA1B74A0A700140CE6 /* SampleCell.m */,
 				D0C56CEC1B74A16900140CE6 /* FlowLayout.h */,
 				D0C56CED1B74A16900140CE6 /* FlowLayout.m */,
+				D0AE7BC11B85722C009E874D /* ScaleFlowLayout.h */,
+				D0AE7BC21B85722C009E874D /* ScaleFlowLayout.m */,
+				D0AE7BC41B857372009E874D /* CollectionScaleViewController.h */,
+				D0AE7BC51B857372009E874D /* CollectionScaleViewController.m */,
+				D0AE7BD21B8577D9009E874D /* ScaleCollectionViewCell.h */,
+				D0AE7BD31B8577D9009E874D /* ScaleCollectionViewCell.m */,
 			);
 			path = PulsingRadarView;
 			sourceTree = "<group>";
@@ -234,9 +272,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0AE7BCF1B85761E009E874D /* 2.png in Resources */,
+				D0AE7BCD1B85761E009E874D /* 0.png in Resources */,
 				D0C142331B745D9B00CE998E /* Main.storyboard in Resources */,
 				D0C142381B745D9B00CE998E /* LaunchScreen.xib in Resources */,
+				D0AE7BD11B85761E009E874D /* 4.png in Resources */,
 				D0C142351B745D9B00CE998E /* Images.xcassets in Resources */,
+				D0AE7BD01B85761E009E874D /* 3.png in Resources */,
+				D0AE7BCE1B85761E009E874D /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +302,10 @@
 				D0C142301B745D9B00CE998E /* ViewController.m in Sources */,
 				D0C56CE51B749BD500140CE6 /* StretchableViewController.m in Sources */,
 				D0C56CEB1B74A0A700140CE6 /* SampleCell.m in Sources */,
+				D0AE7BD41B8577D9009E874D /* ScaleCollectionViewCell.m in Sources */,
+				D0AE7BC61B857372009E874D /* CollectionScaleViewController.m in Sources */,
 				D0C1422D1B745D9B00CE998E /* AppDelegate.m in Sources */,
+				D0AE7BC31B85722C009E874D /* ScaleFlowLayout.m in Sources */,
 				D0C56CDF1B74924100140CE6 /* TableViewController.m in Sources */,
 				D0C56CEE1B74A16900140CE6 /* FlowLayout.m in Sources */,
 				D0C56CE21B74951200140CE6 /* StickyHeaderView.m in Sources */,
