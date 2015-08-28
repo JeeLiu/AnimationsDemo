@@ -23,6 +23,25 @@
             </objects>
             <point key="canvasLocation" x="1240" y="-146"/>
         </scene>
+        <!--Turntable Controller-->
+        <scene sceneID="gDr-Uf-zbZ">
+            <objects>
+                <viewController id="weh-j6-BNl" customClass="XSTurntableController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WHr-LZ-Gwl"/>
+                        <viewControllerLayoutGuide type="bottom" id="z1o-Er-Rgr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yp8-Yn-vnZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zJ4-cW-WEP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kh1-2L-aav" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="380" y="1416"/>
+        </scene>
         <!--Collection Scale View Controller-->
         <scene sceneID="C2J-zd-5h3">
             <objects>
@@ -148,10 +167,11 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="TwO-SX-2Q0"/>
                     <connections>
-                        <segue destination="vXZ-lx-hvc" kind="push" identifier="RadarPush" id="HUz-vG-hCJ"/>
-                        <segue destination="8VN-18-Dnb" kind="push" identifier="HeaderViewPush" id="ia5-sk-BiK"/>
-                        <segue destination="DH0-N2-DYA" kind="push" identifier="PullPush" id="rFd-RQ-FUG"/>
+                        <segue destination="vXZ-lx-hvc" kind="show" identifier="RadarPush" id="HUz-vG-hCJ"/>
+                        <segue destination="8VN-18-Dnb" kind="show" identifier="HeaderViewPush" id="ia5-sk-BiK"/>
+                        <segue destination="DH0-N2-DYA" kind="show" identifier="PullPush" id="rFd-RQ-FUG"/>
                         <segue destination="gc8-Li-gaH" kind="show" identifier="CollectionPush" id="Jyt-vc-fYy"/>
+                        <segue destination="weh-j6-BNl" kind="show" identifier="TurntablePush" id="2qV-Of-myo"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="51l-am-3b2" userLabel="First Responder" sceneMemberID="firstResponder"/>
